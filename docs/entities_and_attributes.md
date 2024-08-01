@@ -1,28 +1,28 @@
-Customer: Manages customer details including name, phone number, and loyalty points.
+1. Customer: Manages customer details including name, phone number, and loyalty points.
 
 Attributes: CustomerID (PK), Name, Phone, LoyaltyPoints.
 
-Employee: Tracks employee information, work hours, and payroll, linked to a specific store branch.
+2. Employee: Tracks employee information, work hours, and payroll, linked to a specific store branch.
 
 Attributes: EmployeeID (PK), Name, Address, Phone, Position, BranchID (FK), Attendance, WorkHours, Payroll.
 
-Supplier: Manages supplier details including address, phone number, and payment mode.
+3. Supplier: Manages supplier details including address, phone number, and payment mode.
 
 Attributes: SupplierID (PK), Name, Address, Phone, PaymentMode.
 
-Product: Stores product details, categorized by category ID, with links to orders and transactions.
+4. Product: Stores product details, categorized by category ID, with links to orders and transactions.
 
 Attributes: ProductID (PK), Name, Price, CategoryID (FK), OrderID (FK), TransactionID (FK)
 
-Order: Manages orders with details on order date, total price, and status.
+5. Order: Manages orders with details on order date, total price, and status.
 
 Attributes: OrderID (PK), OrderDate, TotalPrice, Status.
 
-Transaction: Tracks transactions involving customers and employees, including transaction date and total price.
+6. Transaction: Tracks transactions involving customers and employees, including transaction date and total price.
 
 Attributes: TransactionID (PK), CustomerID (FK), EmployeeID (FK), TransactionDate, TotalPrice.
 
-StoreBranch: Manages store branch details including manager, address, and phone number.
+7. StoreBranch: Manages store branch details including manager, address, and phone number.
 
 Attributes: BranchID (PK), Manager, Address, Phone.
 
