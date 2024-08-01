@@ -8,4 +8,4 @@ This repository contains the following files:
 - `inserts.sql`: SQL script for inserting sample data into the database.
 - `queries.sql`: SQL script for querying the database to retrieve the required information.
 
-  Database used- Oracle database
+Database used- Oracle database
