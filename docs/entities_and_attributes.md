@@ -26,6 +26,6 @@
 
   Attributes: BranchID (PK), Manager, Address, Phone.
 
-Category: Groups products into categories identified by category name and ID.
+8. Category: Groups products into categories identified by category name and ID.
 
-Attributes: CategoryID (PK), Name.
+  Attributes: CategoryID (PK), Name.
