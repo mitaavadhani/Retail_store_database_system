@@ -1,4 +1,4 @@
-This project implements a database management system for a retail store chain. It includes creation of tables, inserting values, and sql queries to manage categories, products, sales, customer information and much more.
+This project implements a database management system for a retail store chain. It includes creation of tables, inserting values, and sql queries to manage categories, products, store, customer information and much more.
 The goal of this project is to develop a reliable and efficient database management system that:
 - Replaces manual processes that are prone to errors and inefficiencies.
 - Provides real-time data processing and reporting.
